@@ -1,0 +1,43 @@
+*{
+    color: white;
+    text-decoration: none;
+}
+header{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+header ul{
+    list-style: none;
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    display: flex;
+    
+}
+body{
+    background-color: rgb(98, 0, 255);
+}
+a:hover{
+    background-color: rgba(255, 235, 205, 0.4);
+}
+main{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+footer {
+    position: relative;
+    bottom: 0%;
+   
+    width: 90%;
+    display: flex; /* Utilise Flexbox pour aligner les éléments en parallèle */
+    justify-content: space-between; /* Pour répartir l'espace entre les éléments */
+    align-items: center; /* Pour aligner verticalement les éléments au centre */
+    padding: 1%; /* Ajoute un peu d'espace intérieur pour que le contenu ne soit pas collé aux bords */
+    margin-left: 5%;
+    margin-right: 5%;
+    border-top: 1px solid #ccc; 
+
+  }
+  {
+    border-top: 1px solid #ccc;
+  }

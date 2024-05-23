@@ -1,0 +1,72 @@
+a {
+    
+    text-decoration: none;
+}
+*{
+    color:white;
+    list-style: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+ul li a
+{
+  padding:5% ;
+  display: flex;
+  font-size: 1em; 
+  justify-content: space-between;
+  
+}
+ul{
+  width: 55%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  }
+.cont-1{position: absolute;
+  right: 65%;
+}
+.cont-2{
+  position: absolute;
+  right: 40%;
+}
+.cont-3{
+    position: absolute;
+    left: 90%;
+    top: 0%;
+}
+.cont-4 input{
+  position: absolute;
+  left: 115%;
+  border-radius: 360%;
+  width: 40%;
+  height: 40%;
+background-color: rgb(255, 174, 0);
+text-align: center;
+top: 45%;
+}
+body{
+    background-color: rgb(98, 0, 255);
+}
+a:hover{
+    background-color: rgba(255, 235, 205, 0.4);
+}
+
+
+footer{
+  position: absolute;
+  width: 90%;
+  bottom: 1%;
+  display: flex; /* Utilise Flexbox pour aligner les éléments en parallèle */
+    justify-content: space-between; /* Pour répartir l'espace entre les éléments */
+    align-items: center; /* Pour aligner verticalement les éléments au centre */
+    padding: 1%; /* Ajoute un peu d'espace intérieur pour que le contenu ne soit pas collé aux bords */
+    margin-left: 5%;
+    margin-right: 5%;
+    border-top: 1px solid #ccc; /* Ajoute une bordure supérieure au footer */
+    
+}

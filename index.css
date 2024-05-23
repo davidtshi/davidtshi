@@ -1,0 +1,94 @@
+
+  *{
+  color: white;
+  text-decoration: none;
+}
+header{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+header ul{
+    list-style: none;
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    display: flex;
+    
+}
+body{
+    background-color: rgb(98, 0, 255);
+}
+img{
+    width: 20%;
+    height:20% ;
+    border-radius: 360%;
+    position: absolute;
+    top: 25%;
+    right: 65%;
+}
+.cont-1{
+    position: absolute;
+    width: 50%;
+    right: 10%;
+    top: 15%;
+}
+.cont-2 p{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 80px;
+  }
+  
+  .cont-2{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+
+  .yelow {
+    background-color: rgb(255, 153, 0);
+  }
+  .rouge{
+    background-color: rgba(255, 0, 0, 0.779);
+  }
+  .blue{
+    background-color: rgb(0, 255, 242);
+  }
+  a:hover{
+    background-color: rgba(255, 235, 205, 0.4);
+  }
+footer {
+    position: absolute;
+    bottom: 5%;
+    justify-content: space-between;
+    width: 90%;display: flex; /* Utilise Flexbox pour aligner les éléments en parallèle */
+    justify-content: space-between; /* Pour répartir l'espace entre les éléments */
+    align-items: center; /* Pour aligner verticalement les éléments au centre */
+    padding: 1%; /* Ajoute un peu d'espace intérieur pour que le contenu ne soit pas collé aux bords */
+    margin-left: 5%;
+    margin-right: 5%;
+    border-top: 1px solid #ccc; 
+
+  }
+/* Affichqge tqblette*/
+@media (min-width: 432pxs){
+header h1 {
+  text-align: left;
+}
+header ul{
+  float: right;
+}
+header li{
+  float: left;
+}
+header li+li {
+  margin-left: 15px;
+}
+section{
+  text-align: left;
+}
+.articles div:nth-child(2n+1) {
+clear: left;
+}
+}
